@@ -10,7 +10,7 @@ A **hands-on, beginner-friendly** curriculum that takes you from the core princi
 
 ## 📚 Course Overview
 
-This course is organized into **6 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 20 academic textbooks and distilled into language that anyone can understand.
+This course is organized into **13 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 40 academic textbooks and distilled into language that anyone can understand.
 
 | # | Chapter | Topic | Exercise |
 |---|---------|-------|----------|
@@ -20,6 +20,13 @@ This course is organized into **6 chapters**, each covering a major pillar of mo
 | 4 | [Conversational AI & NLP](chapter_04_conversational_ai_nlp/) | Tokenization, sentiment analysis, dialogue systems | Sentiment analysis bot with TextBlob |
 | 5 | [Advanced Algorithms & SVM](chapter_05_advanced_algorithms_svm/) | Hyperplanes, support vectors, the kernel trick | SVM classifier with scikit-learn |
 | 6 | [Multi-Agent Systems & Swarm AI](chapter_06_multi_agent_systems/) | Emergent behavior, competitive vs. collaborative agents | Dual trading bot market simulation |
+| 7 | [Computer Vision & Object Recognition](chapter_07_computer_vision/) | CNNs, convolution, pooling, image classification | CIFAR-10 CNN classifier with PyTorch |
+| 8 | [Transfer Learning](chapter_08_transfer_learning/) | Pre-trained models, fine-tuning, feature extraction | ResNet-18 fine-tuning demo |
+| 9 | [Semi-Supervised Learning](chapter_09_semi_supervised_learning/) | Label propagation, unlabeled data, cluster assumptions | Label Propagation on synthetic data |
+| 10 | [Autonomous Vehicles & Robotics](chapter_10_autonomous_vehicles/) | Sensor fusion, LiDAR, perception, path planning | Obstacle avoidance simulation |
+| 11 | [ML for Algorithmic Trading](chapter_11_algorithmic_trading/) | Moving averages, backtesting, trading signals | Moving average crossover backtest |
+| 12 | [Graph Neural Networks](chapter_12_graph_neural_networks/) | Message passing, node embeddings, graph structure | GNN message passing from scratch |
+| 13 | [Deep Learning for Games](chapter_13_deep_learning_games/) | DQN, experience replay, epsilon-greedy | Coin collector grid world agent |
 
 ---
 
@@ -57,6 +64,13 @@ By the end of this course you will be able to:
 - **Analyze** text using tokenization and sentiment analysis, the building blocks of modern Conversational AI.
 - **Classify** data using Support Vector Machines and understand the mathematical elegance of hyperplanes.
 - **Simulate** multi-agent environments where autonomous agents compete or collaborate in real time.
+- **Recognize** objects in images using Convolutional Neural Networks and understand convolution mechanics.
+- **Transfer** knowledge from pre-trained models to solve new tasks with minimal data.
+- **Leverage** unlabeled data using Semi-Supervised Learning when labels are scarce and expensive.
+- **Navigate** autonomous vehicles using sensor fusion and rule-based obstacle avoidance.
+- **Backtest** algorithmic trading strategies using moving average crossover signals.
+- **Propagate** messages through graph networks to learn from relational data structures.
+- **Train** game-playing AI agents using Deep Q-Networks and experience replay.
 
 ---
 
@@ -74,7 +88,7 @@ Every chapter follows a consistent, learner-friendly format:
 
 ## 📘 Source Material
 
-This curriculum synthesizes knowledge from over **20 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, and more.
+This curriculum synthesizes knowledge from over **40 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, computer vision, transfer learning, semi-supervised learning, and game AI.
 
 ---
 
