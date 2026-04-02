@@ -10,7 +10,7 @@ A **hands-on, beginner-friendly** curriculum that takes you from the core princi
 
 ## 📚 Course Overview
 
-This course is organized into **13 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 40 academic textbooks and distilled into language that anyone can understand.
+This course is organized into **21 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 50 academic textbooks and distilled into language that anyone can understand.
 
 | # | Chapter | Topic | Exercise |
 |---|---------|-------|----------|
@@ -27,6 +27,14 @@ This course is organized into **13 chapters**, each covering a major pillar of m
 | 11 | [ML for Algorithmic Trading](chapter_11_algorithmic_trading/) | Moving averages, backtesting, trading signals | Moving average crossover backtest |
 | 12 | [Graph Neural Networks](chapter_12_graph_neural_networks/) | Message passing, node embeddings, graph structure | GNN message passing from scratch |
 | 13 | [Deep Learning for Games](chapter_13_deep_learning_games/) | DQN, experience replay, epsilon-greedy | Coin collector grid world agent |
+| 14 | [Active Learning](chapter_14_active_learning/) | Uncertainty sampling, query strategies, smart labeling | Active vs random sampling comparison |
+| 15 | [Adversarial Machine Learning](chapter_15_adversarial_ml/) | FGSM attacks, robustness, adversarial defenses | Gradient-based attack simulation |
+| 16 | [Fake News Detection](chapter_16_fake_news_detection/) | TF-IDF, linguistic features, credibility scoring | TF-IDF fake news classifier |
+| 17 | [AI for the Internet of Things](chapter_17_ai_for_iot/) | Edge AI, anomaly detection, sensor fusion | IoT sensor anomaly detector |
+| 18 | [Lifelong Machine Learning](chapter_18_lifelong_learning/) | Catastrophic forgetting, replay buffers, continual learning | Forgetting vs replay comparison |
+| 19 | [Metric Learning](chapter_19_metric_learning/) | Triplet loss, embeddings, similarity search | Triplet loss embedding trainer |
+| 20 | [Data Management for ML](chapter_20_data_management_ml/) | Data versioning, pipelines, quality monitoring | Full data pipeline simulation |
+| 21 | [Game Theory for AI](chapter_21_game_theory_ai/) | Nash equilibrium, Prisoner's Dilemma, Tit-for-Tat | Iterated game tournament |
 
 ---
 
@@ -71,6 +79,14 @@ By the end of this course you will be able to:
 - **Backtest** algorithmic trading strategies using moving average crossover signals.
 - **Propagate** messages through graph networks to learn from relational data structures.
 - **Train** game-playing AI agents using Deep Q-Networks and experience replay.
+- **Optimize** labeling budgets using Active Learning's uncertainty-based query strategies.
+- **Defend** AI models against adversarial attacks that exploit gradient information.
+- **Detect** fake news using NLP feature extraction and text classification.
+- **Deploy** lightweight AI models on IoT edge devices for real-time anomaly detection.
+- **Prevent** catastrophic forgetting in models that must learn new tasks continuously.
+- **Measure** similarity between data points using learned metric embeddings and triplet loss.
+- **Engineer** production-quality ML data pipelines with versioning and quality monitoring.
+- **Analyze** strategic interactions between AI agents using game-theoretic frameworks.
 
 ---
 
@@ -88,7 +104,7 @@ Every chapter follows a consistent, learner-friendly format:
 
 ## 📘 Source Material
 
-This curriculum synthesizes knowledge from over **40 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, computer vision, transfer learning, semi-supervised learning, and game AI.
+This curriculum synthesizes knowledge from over **50 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, computer vision, transfer learning, semi-supervised learning, game AI, active learning, adversarial ML, IoT, lifelong learning, metric learning, data management, and game theory.
 
 ---
 
