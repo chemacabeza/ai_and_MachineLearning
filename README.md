@@ -1,0 +1,83 @@
+<div align="center">
+  <img src="cover.png" alt="AI & Machine Learning Course Cover" width="800"/>
+</div>
+
+# 🤖 AI & Machine Learning — From Fundamentals to Multi-Agent Systems
+
+A **hands-on, beginner-friendly** curriculum that takes you from the core principles of Deep Learning all the way to autonomous Multi-Agent Systems. Every chapter is self-contained and includes clear explanations, reflection questions with answers, and a **fully Dockerized exercise** you can run immediately — no local setup required beyond Docker.
+
+---
+
+## 📚 Course Overview
+
+This course is organized into **6 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 20 academic textbooks and distilled into language that anyone can understand.
+
+| # | Chapter | Topic | Exercise |
+|---|---------|-------|----------|
+| 1 | [Deep Learning Fundamentals](chapter_01_deep_learning_fundamentals/) | Neural networks, activation functions, backpropagation | XOR gate solver with pure NumPy |
+| 2 | [Federated Learning Basics](chapter_02_federated_learning/) | Privacy-preserving distributed training, FedAvg | 3-client federated averaging simulation |
+| 3 | [Reinforcement Learning & Agents](chapter_03_reinforcement_learning/) | Q-Learning, exploration vs. exploitation, reward design | Visual Q-Learning maze agent |
+| 4 | [Conversational AI & NLP](chapter_04_conversational_ai_nlp/) | Tokenization, sentiment analysis, dialogue systems | Sentiment analysis bot with TextBlob |
+| 5 | [Advanced Algorithms & SVM](chapter_05_advanced_algorithms_svm/) | Hyperplanes, support vectors, the kernel trick | SVM classifier with scikit-learn |
+| 6 | [Multi-Agent Systems & Swarm AI](chapter_06_multi_agent_systems/) | Emergent behavior, competitive vs. collaborative agents | Dual trading bot market simulation |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/) installed on your machine.
+- That's it! Every exercise runs inside a container — no Python, pip, or library installation needed.
+
+### Running an Exercise
+
+Each chapter contains an `exercise/` folder with a `Dockerfile` and a Python script. To run any exercise:
+
+```bash
+# Navigate to a chapter's exercise folder
+cd chapter_01_deep_learning_fundamentals/exercise
+
+# Build the Docker image
+docker build -t ch1-deep-learning .
+
+# Run it
+docker run --rm ch1-deep-learning
+```
+
+---
+
+## 🎯 What You Will Learn
+
+By the end of this course you will be able to:
+
+- **Build** a neural network from scratch using only NumPy and understand forward/backpropagation.
+- **Explain** how Federated Learning enables privacy-preserving AI training across decentralized devices.
+- **Implement** a Q-Learning agent that teaches itself to navigate an environment through trial and error.
+- **Analyze** text using tokenization and sentiment analysis, the building blocks of modern Conversational AI.
+- **Classify** data using Support Vector Machines and understand the mathematical elegance of hyperplanes.
+- **Simulate** multi-agent environments where autonomous agents compete or collaborate in real time.
+
+---
+
+## 📖 How Each Chapter Is Structured
+
+Every chapter follows a consistent, learner-friendly format:
+
+1. **🖼️ Cover Image** — A visual representation of the chapter's core topic.
+2. **🎯 The Big Goal** — A one-sentence summary of what you will achieve.
+3. **Core Concepts** — Plain-language explanations of the theory, accessible to anyone.
+4. **🤔 Reflection Questions** — Test your understanding with expandable answers.
+5. **🐳 Hands-On Exercise** — A fully Dockerized, runnable code exercise with step-by-step instructions and inline source code you can copy and paste.
+
+---
+
+## 📘 Source Material
+
+This curriculum synthesizes knowledge from over **20 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, and more.
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the [Apache License 2.0](LICENSE).
