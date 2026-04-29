@@ -10,7 +10,7 @@ A **hands-on, beginner-friendly** curriculum that takes you from the core princi
 
 ## 📚 Course Overview
 
-This course is organized into **21 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 50 academic textbooks and distilled into language that anyone can understand.
+This course is organized into **27 chapters**, each covering a major pillar of modern AI and Machine Learning. The material is synthesized from over 50 academic textbooks and distilled into language that anyone can understand.
 
 | # | Chapter | Topic | Exercise |
 |---|---------|-------|----------|
@@ -35,6 +35,12 @@ This course is organized into **21 chapters**, each covering a major pillar of m
 | 19 | [Metric Learning](chapter_19_metric_learning/) | Triplet loss, embeddings, similarity search | Triplet loss embedding trainer |
 | 20 | [Data Management for ML](chapter_20_data_management_ml/) | Data versioning, pipelines, quality monitoring | Full data pipeline simulation |
 | 21 | [Game Theory for AI](chapter_21_game_theory_ai/) | Nash equilibrium, Prisoner's Dilemma, Tit-for-Tat | Iterated game tournament |
+| 22 | [Bayesian Learning](chapter_22_bayesian_learning/) | Bayes' theorem, priors & posteriors, MAP vs MLE | Bayesian coin inference |
+| 23 | [Ensemble Methods](chapter_23_ensemble_methods/) | Boosting, bagging, AdaBoost, Random Forests | AdaBoost from scratch |
+| 24 | [Dimensionality Reduction](chapter_24_dimensionality_reduction/) | PCA, eigenvalues, variance preservation | PCA from scratch |
+| 25 | [Statistical Learning Theory](chapter_25_statistical_learning_theory/) | Bias-variance tradeoff, Ridge & Lasso regularization | Bias-variance & regularization explorer |
+| 26 | [Kernel Methods](chapter_26_kernel_methods/) | Kernel trick, RBF kernels, Mercer's theorem | Kernel classifier from scratch |
+| 27 | [Time Series Forecasting](chapter_27_time_series_forecasting/) | Autoregression, ARIMA, stationarity, sliding windows | AR forecasting from scratch |
 
 ---
 
@@ -87,6 +93,12 @@ By the end of this course you will be able to:
 - **Measure** similarity between data points using learned metric embeddings and triplet loss.
 - **Engineer** production-quality ML data pipelines with versioning and quality monitoring.
 - **Analyze** strategic interactions between AI agents using game-theoretic frameworks.
+- **Update** beliefs using Bayesian inference and understand the difference between MAP and MLE estimation.
+- **Combine** weak learners into powerful ensembles using Boosting, Bagging, and AdaBoost.
+- **Compress** high-dimensional data using PCA while preserving the most important variance structure.
+- **Balance** bias and variance through regularization techniques like Ridge and Lasso regression.
+- **Transform** non-linear data into linearly separable spaces using kernel methods and the RBF kernel.
+- **Forecast** future values from sequential data using autoregressive models and sliding windows.
 
 ---
 
@@ -104,7 +116,7 @@ Every chapter follows a consistent, learner-friendly format:
 
 ## 📘 Source Material
 
-This curriculum synthesizes knowledge from over **50 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, computer vision, transfer learning, semi-supervised learning, game AI, active learning, adversarial ML, IoT, lifelong learning, metric learning, data management, and game theory.
+This curriculum synthesizes knowledge from over **50 academic textbooks** spanning deep learning, federated learning, reinforcement learning, NLP, sentiment analysis, support vector machines, graph-based learning, multi-agent systems, autonomous vehicles, trading agents, computer vision, transfer learning, semi-supervised learning, game AI, active learning, adversarial ML, IoT, lifelong learning, metric learning, data management, game theory, Bayesian inference, ensemble methods, dimensionality reduction, statistical learning theory, kernel methods, and time series forecasting.
 
 ---
 
